@@ -14,6 +14,7 @@
 		BC3AA06D1F005D5100EF1D99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3AA06B1F005D5100EF1D99 /* LaunchScreen.storyboard */; };
 		BC3AA0781F005D5200EF1D99 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3AA0771F005D5200EF1D99 /* TicTacToeTests.swift */; };
 		BC3AA0831F005D5200EF1D99 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3AA0821F005D5200EF1D99 /* TicTacToeUITests.swift */; };
+		BC3AA0911F00621000EF1D99 /* GridLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3AA0901F00621000EF1D99 /* GridLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BC3AA07E1F005D5200EF1D99 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3AA0821F005D5200EF1D99 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		BC3AA0841F005D5200EF1D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3AA0901F00621000EF1D99 /* GridLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BC3AA0621F005D5100EF1D99 /* AppDelegate.swift */,
 				BC3AA0641F005D5100EF1D99 /* ViewController.swift */,
+				BC3AA0901F00621000EF1D99 /* GridLabel.swift */,
 				BC3AA0661F005D5100EF1D99 /* Main.storyboard */,
 				BC3AA0691F005D5100EF1D99 /* Assets.xcassets */,
 				BC3AA06B1F005D5100EF1D99 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3AA0911F00621000EF1D99 /* GridLabel.swift in Sources */,
 				BC3AA0651F005D5100EF1D99 /* ViewController.swift in Sources */,
 				BC3AA0631F005D5100EF1D99 /* AppDelegate.swift in Sources */,
 			);
